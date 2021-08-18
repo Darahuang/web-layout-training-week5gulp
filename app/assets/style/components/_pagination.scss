@@ -1,0 +1,12 @@
+.page-link-success{
+  border: 1px solid $success;
+  color: $success;
+  &.active{
+    background-color: $success;
+    color: #fff;
+  }
+  &:hover{
+    background-color: $success;
+    color: #fff;
+  }
+}

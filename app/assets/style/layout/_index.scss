@@ -1,0 +1,15 @@
+.course-list{
+  .course-list-item{
+    padding: 12px;
+  }
+}
+
+.list-group-item.active{
+  background-color: $light;
+  color: #000;
+  border-color:rgba(0, 0, 0, 0.125) ;
+}
+
+main{
+  margin-left: 296px;
+}

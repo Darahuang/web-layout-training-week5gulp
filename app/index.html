@@ -1,0 +1,254 @@
+---
+title: index
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<main>
+  <div class="p-6">
+    <div class="d-flex align-items-center justify-content-between mb-8">
+      <div class="d-flex align-items-center">
+        <h1 class="h4 fw-bold me-9">Assignment</h1>
+        <a class="h6 fw-bold link-dark mb-0 link-hover" href="#">
+          All Courses
+          <span class="material-icons-outlined align-middle text-success ms-2">
+            expand_more
+          </span>
+        </a>
+      </div>
+      <div class="d-flex align-items-center">
+        <a href="#" class="link-dark link-hover">
+          <span class="material-icons-outlined me-5"> search </span>
+        </a>
+        <a href="#" class="link-dark link-hover">
+          <span class="material-icons"> notifications_active </span>
+        </a>
+      </div>
+    </div>
+    <div class="d-flex justify-content-between mb-2">
+      <a href="#" class="h6 link-dark link-hover fw-bold"
+        >All (4)
+        <span class="material-icons-outlined align-middle text-success ms-2">
+          expand_more
+        </span>
+      </a>
+      <p class="fs-xs text-pale">2 comments</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="list-group course-list me-3">
+          <a
+            href="#"
+            class="list-group-item list-group-item-action active p-0"
+            aria-current="true"
+          >
+            <div class="course-list-item">
+              <div class="d-flex justify-content-between mb-1">
+                <p class="fs-xs mb-0">Chapter Assignment 2</p>
+                <span class="fs-xs mb-0">4 hrs ago</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="fw-bold mb-0">Please check this file…</p>
+                <p class="fs-xs text-pale mb-0">Emily Wang</p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="list-group-item list-group-item-action p-0"
+            aria-current="true"
+          >
+            <div class="course-list-item">
+              <div class="d-flex justify-content-between mb-1">
+                <p class="fs-xs mb-0">Chapter Assignment 1</p>
+                <span class="fs-xs mb-0">12 hrs ago</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="fw-bold mb-0">My Homework</p>
+                <p class="fs-xs text-pale mb-0">David Xu</p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="list-group-item list-group-item-action p-0"
+            aria-current="true"
+          >
+            <div class="course-list-item">
+              <div class="d-flex justify-content-between mb-1">
+                <p class="fs-xs mb-0">Final Assignment</p>
+                <span class="fs-xs mb-0">18 hrs ago</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="fw-bold mb-0">Have a problem with this…</p>
+                <p class="fs-xs text-pale mb-0">Tony Wei</p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="list-group-item list-group-item-action p-0"
+            aria-current="true"
+          >
+            <div class="course-list-item">
+              <div class="d-flex justify-content-between mb-1">
+                <p class="fs-xs mb-0">Final Assignment</p>
+                <span class="fs-xs mb-0">19 hrs ago</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="fw-bold mb-0">Did I do it right?</p>
+                <p class="fs-xs text-pale mb-0">Christina Lin</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="content border border-bottom-0">
+          <div class="card-header d-flex justify-content-between align-items-center"
+          >
+            <div>
+              <p class="fs-xs mb-1">Chapter Assignment 2 / HTML&CSS</p>
+              <h3 class="h6 fw-bold mb-0">
+                Please check this file for me, thanks!
+              </h3>
+            </div>
+            <span class="material-icons-outlined"> more_vert </span>
+          </div>
+          <div class="d-flex p-3 pb-0">
+            <div class="flex-shrink-0 me-2">
+              <img
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emilywang.jpeg?raw=true"
+                alt="學生照片"
+                class="user-img rounded-circle img-cover"
+              />
+            </div>
+            <div class="flex-grow-1">
+              <h3 class="h6 fw-bold mb-0">Emily Wang</h3>
+              <span class="fs-xs text-pale">10:38 AM (4 hours ago)</span>
+              <p class="mt-3">
+                Hi Teacher, the attached file is my homework of chapter 2. And
+                here comes a question: Why in the following code the height of
+                the <mark>div</mark> is bigger than the height of the
+                <mark>img</mark> ? There is a gap below the image, but it
+                doesn’t seems to be a padding/margin. What is the gap or extra
+                space below image?
+              </p>
+              <a
+                href="#"
+                class="btn btn-light border fw-bold"
+                download="HW-2-David.zip"
+              >
+                <span class="material-icons-outlined align-middle me-2">
+                  attachment
+                </span>
+                HW-2-David.zip
+              </a>
+              <hr />
+            </div>
+          </div>
+        </div>
+        <div class="collapse show multi-collapse" id="multiCollapse1">
+          <div class="content border border-top-0">
+            <div class="d-flex p-3 pt-0">
+              <div class="flex-shrink-0 me-2">
+                <img
+                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true"
+                  alt="老師照片"
+                  class="user-img rounded-circle img-cover"
+                />
+              </div>
+              <div class="flex-grow-1">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div>
+                    <h3 class="h6 fw-bold mb-0">Andy Chen (You)</h3>
+                    <span class="fs-xs text-pale">13:24 AM (1 hours ago)</span>
+                  </div>
+                  <div class="d-flex">
+                    <a href="#" class="link-hover link-dark me-4">
+                      <span class="material-icons-outlined"> grade </span>
+                    </a>
+                    <a href="#" class="link-hover link-dark">
+                      <span class="material-icons"> edit </span>
+                    </a>
+                  </div>
+                </div>
+                <p class="mt-3">
+                  Hi David, by default, an image is rendered inline, like a
+                  letter so it sits on the same line that a, b, c and d sit on.
+                  There is space below that line for the descenders you find on
+                  letters like g, j, p and q. <br /><br />
+                  You can:
+                </p>
+                <ul>
+                  <li>
+                    <p>
+                      adjust the <mark>vertical-align</mark> of the image to
+                      position it elsewhere (e.g. the <mark>middle</mark> ) or
+                    </p>
+                  </li>
+                  <li>
+                    <p>change the <mark>display</mark> so it isn’t inline.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="collapse multi-collapse" id="multiCollapse2">
+          <div class="content border border-top-0">
+            <textarea
+              id="editor"
+              name="replyTextarea"
+              placeholder="Reply an answer…"
+            ></textarea>
+            <div class="p-3 text-end">
+              <button
+                class="btn btn-outline-success me-3 px-6 py-2"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target=".multi-collapse"
+                role="button"
+                aria-expanded="false"
+                aria-controls="multiCollapse1 multiCollapse2 multiCollapse3"
+              >
+                Cancel
+              </button>
+              <button class="btn btn-success px-6 py-2" type="button">
+                Reply
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="collapse multi-collapse show" id="multiCollapse3">
+          <div class="d-flex justify-content-between mt-4">
+            <div>
+              <span class="material-icons me-4"> chevron_left </span>
+              <span class="material-icons"> chevron_right </span>
+            </div>
+            <div>
+              <button
+                class="btn btn-outline-success me-3 px-6 py-2"
+                type="button"
+              >
+                Mark as read
+              </button>
+              <button
+                class="btn btn-success px-6 py-2"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target=".multi-collapse"
+                role="button"
+                aria-expanded="false"
+                aria-controls="multiCollapse1 multiCollapse2 multiCollapse3"
+              >
+                Reply
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

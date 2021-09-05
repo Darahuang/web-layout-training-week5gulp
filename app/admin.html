@@ -33,9 +33,11 @@ current: admin
             <tr>
               <th scope="col">
                 ID
-                <span class="material-icons-outlined text-success align-middle">
-                  arrow_downward
-                </span>
+                <a href="#" class="link-dark link-hover d-inline-block">
+                  <span class="material-icons-outlined text-success align-middle">
+                    arrow_downward
+                  </span>
+                </a>
               </th>
               <th scope="col">Name</th>
               <th scope="col">Email</th>
@@ -415,6 +417,7 @@ current: admin
                 class="form-control form-bg-light p-3"
                 id="name"
                 placeholder="Emir Wicks"
+                readonly
               />
             </div>
             <div class="mb-3">
@@ -424,6 +427,7 @@ current: admin
                 class="form-control form-bg-light p-3"
                 id="email"
                 placeholder="emir.wicks@mail.com"
+                readonly
               />
             </div>
             <hr class="my-4" />
@@ -437,7 +441,7 @@ current: admin
               </div>
               <span>2020/4/12</span>
             </div>
-            <button class="btn btn-outline-dark w-100 p-3" disabled>
+            <button class="btn btn-outline-dark w-100 p-3" type="button" disabled>
               Send Verification Mail
             </button>
             <hr class="my-4" />
@@ -558,7 +562,7 @@ current: admin
               </div>
               <span>2020/4/12</span>
             </div>
-            <button class="btn btn-outline-success w-100 p-3" disabled>
+            <button class="btn btn-outline-success w-100 p-3" type="button" >
               Send Verification Mail
             </button>
             <hr class="my-4" />

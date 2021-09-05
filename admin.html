@@ -75,8 +75,14 @@
      <div class="user ps-6 d-flex">
        <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true" alt="" srcset="" class="user-img rounded-circle img-cover">
        <div class="ms-3">
-        <h2 class="h6 fw-bold mb-1">Andy Chen</h2>
-        <p class="fs-sm text-pale">andy0401@mail.com</p>
+         <ul class="list-unstyled">
+           <li>
+            <h2 class="h6 fw-bold mb-1">Andy Chen</h2>
+           </li>
+           <li>
+             <a href="mailto:andy0401@mail.com" class="fs-sm text-pale">andy0401@mail.com</a>
+           </li>
+         </ul>
        </div>
        
      </div>
@@ -111,9 +117,11 @@
             <tr>
               <th scope="col">
                 ID
-                <span class="material-icons-outlined text-success align-middle">
-                  arrow_downward
-                </span>
+                <a href="#" class="link-dark link-hover d-inline-block">
+                  <span class="material-icons-outlined text-success align-middle">
+                    arrow_downward
+                  </span>
+                </a>
               </th>
               <th scope="col">Name</th>
               <th scope="col">Email</th>
@@ -493,6 +501,7 @@
                 class="form-control form-bg-light p-3"
                 id="name"
                 placeholder="Emir Wicks"
+                readonly
               />
             </div>
             <div class="mb-3">
@@ -502,6 +511,7 @@
                 class="form-control form-bg-light p-3"
                 id="email"
                 placeholder="emir.wicks@mail.com"
+                readonly
               />
             </div>
             <hr class="my-4" />
@@ -515,7 +525,7 @@
               </div>
               <span>2020/4/12</span>
             </div>
-            <button class="btn btn-outline-dark w-100 p-3" disabled>
+            <button class="btn btn-outline-dark w-100 p-3" type="button" disabled>
               Send Verification Mail
             </button>
             <hr class="my-4" />
@@ -636,7 +646,7 @@
               </div>
               <span>2020/4/12</span>
             </div>
-            <button class="btn btn-outline-success w-100 p-3" disabled>
+            <button class="btn btn-outline-success w-100 p-3" type="button" >
               Send Verification Mail
             </button>
             <hr class="my-4" />
